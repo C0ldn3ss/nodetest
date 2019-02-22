@@ -1,11 +1,24 @@
 {
   "name": "testproject",
   "version": "1.0.0",
-  "description": "node test project",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "author": "me",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C0ldn3ss/nodetest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C0ldn3ss/nodetest/issues"
+  },
+  "homepage": "https://github.com/C0ldn3ss/nodetest#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
 }
